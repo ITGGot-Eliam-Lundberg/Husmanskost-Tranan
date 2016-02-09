@@ -73,17 +73,15 @@ nav {
 
 .mainmenu {
     width: 50%;
-    height: 50px;
+    height: 35px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .menubuttons {
+    margin-top: -10px;
     list-style-type: none;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    float: left;
     padding: 0;
 }
 
@@ -91,11 +89,43 @@ nav {
     font-family: Arial;
     font-weight: 500;
     color: whitesmoke;
-    display: block;
-
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: -5px;
     width: 96px;
     height: 30px;
-    float: left;
     text-align: center;
-    margin-bottom: 2px;
+    padding-top: 10px;
+    display: block;
+    background-color: pink;
     }
+
+h1 {
+    margin-left: 400px;
+    color:  #3688FF;
+}
+#info {
+    margin-top: 20px;
+    background-color: ;
+    height: 500px;
+    width: 80%;
+    margin-left: 100px;
+    border: groove;
+    border-color: #3688FF;
+}
+#inforubrik {
+    margin-left: -10px;
+}
+p {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#bord {
+    margin-left: 25%;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
