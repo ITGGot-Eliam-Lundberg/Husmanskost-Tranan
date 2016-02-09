@@ -11,13 +11,12 @@ html, body {
     margin-right: auto;
     width: 80%;
     height: 1000px;
-
 }
 
 header {
     position: relative;
     width: 100%;
-    background: url(../img/background.png) no-repeat center center fixed;
+    background: url(../img/collage.jpg) no-repeat center center fixed;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -32,6 +31,15 @@ header {
     position: absolute;
     top: 30%;
     left: 10%;
+    background-color:  #90C2FF;
+    border: ridge;
+    border-color: #3688FF;
+    ;
+}
+
+#tider td {
+    color: whitesmoke;
+
 }
 
 .logo {
@@ -57,7 +65,8 @@ header {
 }
 
 nav {
-    border: outset;
+    border-bottom: outset;
+    border-top: outset;
     border-color: #3688FF;
     background-color: #90C2FF;
 }
@@ -79,11 +88,14 @@ nav {
 }
 
 .menubuttons li {
+    font-family: Arial;
+    font-weight: 500;
+    color: whitesmoke;
     display: block;
+
     width: 96px;
-    height: 20px;
+    height: 30px;
     float: left;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
+    margin-bottom: 2px;
+    }
