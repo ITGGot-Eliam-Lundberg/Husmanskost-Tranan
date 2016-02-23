@@ -5,6 +5,13 @@
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     <meta charset="UTF-8">
     <title>Tranan</title>
+    <script src="js/JQuery.js"></script>
+    <script src="js/demo.js"></script>
+    <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+    <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <!-- Magnific Popup core JS file -->
+    <script src="magnific-popup/jquery.magnific-popup.js"></script>
 </head>
 
 <body>
@@ -40,13 +47,25 @@
         <div class="mainmenu">
             <ul class="menubuttons">
                 <li><a href="tranan.html">START</a></li>
-                <li><a href="tranan.html">MENY</a></li>
-                <li><a href="tranan.html">BOKA</a></li>
+                <li id="abou"><a href="./img/menu1.jpg">MENY</a></li>
+                <li><a href="boka.html">BOKA</a></li>
                 <li><a href="tranan.html">OM OSS</a></li>
                 <li><a href="tranan.html">KONTAKT</a></li>
             </ul>
         </div>
     </nav>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.menubuttons #abou').magnificPopup({
+                type: 'image',
+                delegate: 'a',
+                closeOnContentClick: true,
+                image: {
+                    verticalFit: false
+                }
+            });
+        });
+    </script>
     <div id="info">
         <h1>
             Que
